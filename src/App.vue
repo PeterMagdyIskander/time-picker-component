@@ -1,18 +1,21 @@
 <template>
-  <div >
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Clock></Clock>
+    asd
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import HelloWorld from "./components/HelloWorld.vue";
+import Clock from "./components/Clock.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+    Clock,
+  },
+};
 </script>
 
 <style>
